@@ -1,0 +1,40 @@
+@startmindmap Thread Communication
+!theme plain
+skinparam backgroundColor #0d1117
+skinparam defaultFontColor #e6edf3
+skinparam ArrowColor #58a6ff
+skinparam LineColor #58a6ff
+skinparam RectangleBorderColor #58a6ff
+skinparam defaultFontColor #0d1117
+*[#Orange] Thread Communication
+**[#LightGreen] Shared State
+***[#LightGreen] Concurrency Primitives
+****[#LightGreen] Thread Safe Ownership Primitive
+*****[#LightGreen] Arc
+******[#LightGreen] new,clone
+****[#LightGreen] Synchronization Primitives
+*****[#LightGreen] Mutex
+******[#LightGreen] new, lock, try_lock
+*****[#LightGreen] RwLock
+******[#LightGreen] new, read, write, try_read, try_write
+*****[#LightGreen] AtomicUsize and Ordering
+******[#LightGreen] new, load, store, fetch_add, fetch_sub, compare_exchange
+******[#LightGreen] Relaxed, Release, Acquire, AcqRel, SeqCst
+*****[#LightGreen] Barrier
+******[#LightGreen] new, wait
+*****[#LightGreen] Condvar
+******[#LightGreen] new, wait, wait_timeout, notify_one, notify_all
+*****[#LightGreen] OnceLock
+******[#LightGreen] new, get_or_init, get, set
+***[#LightGreen] Patterns
+****[#LightGreen] Many Writers
+****[#LightGreen] Many Readers
+****[#LightGreen] Many Writes for Counters and Flags
+****[#LightGreen] One-Time Initialization Shared Later
+****[#LightGreen] Many Writers Appending to Queue or Log
+****[#LightGreen] Scoped Borrowing of Shared State
+****[#LightGreen] Reader Needing to Wait for a Condition
+****[#LightGreen] Coordinated Stage Pipeline
+** Message Passing
+*** TBD
+@endmindmap

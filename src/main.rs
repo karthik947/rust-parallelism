@@ -1,8 +1,11 @@
 #![allow(unused)]
-mod demo7;
+mod basics;
+mod shared_state;
 
-use demo7::*;
+use basics::*;
+use shared_state::*;
 
 fn main() {
-    demo();
+    // basics::demo1::demo();
+    shared_state::barrier_pipeline::demo();
 }
