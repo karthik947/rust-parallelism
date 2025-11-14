@@ -7,6 +7,16 @@ skinparam LineColor #58a6ff
 skinparam RectangleBorderColor #58a6ff
 skinparam defaultFontColor #0d1117
 *[#Orange] Thread Communication
+**[#LightGreen] Message Passing
+***[#LightGreen] Communication Primitives
+****[#LightGreen] mpsc
+***[#LightGreen] Patterns
+****[#LightGreen] Single Producer Single Consumer
+****[#LightGreen] Multiple Producer Single Consumer
+****[#LightGreen] Bounded channels for backpressure
+****[#LightGreen] Controller cancellation
+****[#LightGreen] One shot request response
+****[#LightGreen] Pipeline with stages
 **[#LightGreen] Shared State
 ***[#LightGreen] Concurrency Primitives
 ****[#LightGreen] Thread Safe Ownership Primitive
@@ -35,6 +45,4 @@ skinparam defaultFontColor #0d1117
 ****[#LightGreen] Scoped Borrowing of Shared State
 ****[#LightGreen] Reader Needing to Wait for a Condition
 ****[#LightGreen] Coordinated Stage Pipeline
-** Message Passing
-*** TBD
 @endmindmap
